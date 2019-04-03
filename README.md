@@ -1,2 +1,4 @@
-# Gold-Rush
-Finalized code for group project of CIS 29 (De Anza College)
+Source code for "Gold Rush", which was our group project for CIS 29 (De Anza College).
+
+Requires linking of SFML library.
+Make sure that all assets are in the same directory as project.
