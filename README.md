@@ -13,39 +13,80 @@ Monsters will gradually increase in speed and number as you collect more coins. 
 If you ever find a cluser of monsters, you can drop a bomb in the selected area with a mouse click!
 
 ### Images
-[titleScreen](screenshots/titleScreen.png)
+![titleScreen](screenshots/titleScreen.png)
 
-[menu](screenshots/optionsScreen.png)
+![menu](screenshots/optionsScreen.png)
 
-[idle](screenshots/idleGame.png)
+![idle](screenshots/idleGame.png)
 
-[shield](screenshots/shield.png)
+![shield](screenshots/shield.png)
 
-[beforeAtkMonster](screenshots/beforeAtkMon.png)
+![beforeAtkMonster](screenshots/beforeAtkMon.png)
 
-[afterAtkMonster](screenshots/afterAtkMon.png)
+![afterAtkMonster](screenshots/afterAtkMon.png)
 
-[monsterCollision](screenshots/monsterCollision.png)
+![monsterCollision](screenshots/monsterCollision.png)
 
-[beforeBomb](screenshots/beforeBomb.png)
+![beforeBomb](screenshots/beforeBomb.png)
 
-[afterBomb](screenshots/afterBomb.png)
+![afterBomb](screenshots/afterBomb.png)
 
-[closeDoor](screenshots/closeDoor.png)
+![closeDoor](screenshots/closeDoor.png)
 
-[key](screenshots/keySpawn.png)
+![key](screenshots/keySpawn.png)
 
-[openDoor](screenshots/openDoor.png)
+![openDoor](screenshots/openDoor.png)
 
-[bossFullHealth](screenshots/boss1.png)
+![bossFullHealth](screenshots/boss1.png)
 
-[bossBeingAtk](screenshots/boss2.png)
+![bossBeingAtk](screenshots/boss2.png)
 
-[gameOver](screenshots/gameOver.png)
+![gameOver](screenshots/gameOver.png)
 
-### Code Snippets
+### Code Snippets 
+```C++
+//
+//  Monster.cpp
+//
+//  Created by Johnny Nguyen and Felicia Dewanaga
+//  Copyright © 2019 Johnny Nguyen and Felicia Dewanaga
+//  All rights reserved.
 
-##### Note: Presenting only my own code.
+class Monster : public Entity
+{
+private:
+    // Textures
+    sf::Texture movementOneTexture;
+    sf::Texture movementTwoTexture;
+    sf::Texture collisionTexture;
+    
+    bool alive = true;
+    int direction = 0; // 0 = Up, 1 = Down, 2 = Left, 3 = Right
+    float movementSpeed = 2;
+    int movementCounter = 0;
+    int movementLength = 55;
+    bool bigBoss;
+    
+public:
+    // Constructor
+    Monster(sf::Texture& monsterTexture, sf::Texture& monsterTwoTexture, sf::Texture& monsterCollisionTexture, float chamberx, float chambery, bool boss = false);
+    ~Monster();
+    
+    // Animations
+    void movementAnimation();
+    void collisionAnimation() { sprite.setTexture(collisionTexture); }
+    
+    
+    // Functions
+    int randomNumber(int max);
+    bool getAlive();
+    void setAlive(bool a);
+    void increaseSpeed(float inputSpeedNumber) { if (movementSpeed < 15) movementSpeed += inputSpeedNumber; }
+    void updateMovement(const int SCREENWIDTH, const int BG_HEIGHT);
+};
+
+#endif // MONSTER_H
+```
 
 ### My Reflection and Thoughts
 
