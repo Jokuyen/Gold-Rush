@@ -59,7 +59,7 @@ Game over screen
 ![gameOver](screenshots/gameOver.png)
 
 ### Code 
-```C++
+```c++
 //  Monster.cpp
 //
 //  Created by Johnny Nguyen and Felicia Dewanaga
@@ -100,7 +100,7 @@ public:
 };
 ```
 
-### My Reflection and Thoughts
+### Reflection and Thoughts
 
 Even though this is a simple game, the development process was difficult—especially considering that this was everyone's first time creating a game. I picked up animation as a responsibility since no one on my team had artistic talent; figuring out this process was a valuable lesson for me.
 
