@@ -4,13 +4,13 @@ As one of the two leaders, my responsibilities included team coordinations, code
 
 ### Game Play
 
-In this mini survival game, you play as a cat collecting coins. Meanwhile, monsters spawn at random; it is your goal to collect as many coins as possible to increase your score while surviving your encounters with these monsters.
+In this mini survival game, you play as a cat collecting coins. Meanwhile, monsters spawn at random; it is your goal to collect as many coins as possible to increase your score while surviving your encounters with these wandering monsters.
 
 Beginning with 5 lives, any collision with these monsters counts as 1 deduction. You can attack by pressing "A", enabling you to defeat these monsters, or you could press "S" to temporarily brace yourself for 1 incoming attack. 
 
-The more coins you collect, the most monsters that spawn with a faster default speed. At every 50 coins collected, a key spawns that enables you to open the door to a boss. Defeating this boss with your attacks will grant 3 lives.
+Monsters will gradually increase in speed and number as you collect more coins. At every 50 coins collected, a key spawns that enables you to open the door to a boss. Defeating this boss with your attacks will grant 3 lives.
 
-If you ever find a cluser of monsters, you can drop a bomb in the selected area with the mouse!
+If you ever find a cluser of monsters, you can drop a bomb in the selected area with a mouse click!
 
 ### Code Snippets + Images
 ## Note: I'm only using code made from my own work.
