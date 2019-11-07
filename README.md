@@ -12,7 +12,39 @@ Monsters will gradually increase in speed and number as you collect more coins. 
 
 If you ever find a cluser of monsters, you can drop a bomb in the selected area with a mouse click!
 
-### Code Snippets + Images
+### Images
+[titleScreen](screenshots/titleScreen.png)
+
+[menu](screenshots/optionsScreen.png)
+
+[idle](screenshots/idleGame.png)
+
+[shield](screenshots/shield.png)
+
+[beforeAtkMonster](screenshots/beforeAtkMon.png)
+
+[afterAtkMonster](screenshots/afterAtkMon.png)
+
+[monsterCollision](screenshots/monsterCollision.png)
+
+[beforeBomb](screenshots/beforeBomb.png)
+
+[afterBomb](screenshots/afterBomb.png)
+
+[closeDoor](screenshots/closeDoor.png)
+
+[key](screenshots/keySpawn.png)
+
+[openDoor](screenshots/openDoor.png)
+
+[bossFullHealth](screenshots/boss1.png)
+
+[bossBeingAtk](screenshots/boss2.png)
+
+[gameOver](screenshots/gameOver.png)
+
+### Code Snippets
+
 ## Note: I'm only using code made from my own work.
 
 ### My Reflection and Thoughts
