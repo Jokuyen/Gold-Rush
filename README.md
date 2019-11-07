@@ -13,39 +13,53 @@ Monsters will gradually increase in speed and number as you collect more coins. 
 If you ever find a cluser of monsters, you can drop a bomb in the selected area with a mouse click!
 
 ### Images
+Title Screen
 ![titleScreen](screenshots/titleScreen.png)
 
+Menu
 ![menu](screenshots/optionsScreen.png)
 
+Idle
 ![idle](screenshots/idleGame.png)
 
+Shielded
 ![shield](screenshots/shield.png)
 
+Before attacking
 ![beforeAtkMonster](screenshots/beforeAtkMon.png)
 
+After attacking
 ![afterAtkMonster](screenshots/afterAtkMon.png)
 
+Monsters turn red upon collision
 ![monsterCollision](screenshots/monsterCollision.png)
 
+Before bombing a cluster of monsters
 ![beforeBomb](screenshots/beforeBomb.png)
 
+After bombing
 ![afterBomb](screenshots/afterBomb.png)
 
+Closed door
 ![closeDoor](screenshots/closeDoor.png)
 
+Key spawned 
 ![key](screenshots/keySpawn.png)
 
+Opened door after obtaining key
 ![openDoor](screenshots/openDoor.png)
 
+Boss at full health
 ![bossFullHealth](screenshots/boss1.png)
 
+Boss after a few attacks
 ![bossBeingAtk](screenshots/boss2.png)
 
+Game over screen
 ![gameOver](screenshots/gameOver.png)
 
-### Code Snippets 
+### Code 
 ```C++
-//
 //  Monster.cpp
 //
 //  Created by Johnny Nguyen and Felicia Dewanaga
@@ -84,8 +98,6 @@ public:
     void increaseSpeed(float inputSpeedNumber) { if (movementSpeed < 15) movementSpeed += inputSpeedNumber; }
     void updateMovement(const int SCREENWIDTH, const int BG_HEIGHT);
 };
-
-#endif // MONSTER_H
 ```
 
 ### My Reflection and Thoughts
