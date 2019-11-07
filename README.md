@@ -45,7 +45,7 @@ If you ever find a cluser of monsters, you can drop a bomb in the selected area 
 
 ### Code Snippets
 
-##### Note: I'm only using code made from my own work.
+##### Note: Presenting only my own code.
 
 ### My Reflection and Thoughts
 
