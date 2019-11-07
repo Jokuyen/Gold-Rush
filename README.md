@@ -1,4 +1,4 @@
-#### NOTE: THIS WEBPAGE IS CURRENTLY A WORK IN PROGRESS! :)
+#### NOTE FROM NOVEMBER 7, 2019: THIS WEBPAGE IS CURRENTLY A WORK IN PROGRESS! :)
 
 In the span of 2 months, this project was developed by 5 students for the "Advanced C++" course at De Anza College.
 
