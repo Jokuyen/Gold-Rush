@@ -13,6 +13,7 @@ The more coins you collect, the most monsters that spawn with a faster default s
 If you ever find a cluser of monsters, you can drop a bomb in the selected area with the mouse!
 
 ### Code Snippets + Images
+## Note: I'm only using code made from my own work.
 
 ### My Reflection and Thoughts
 
