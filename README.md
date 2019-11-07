@@ -1,3 +1,5 @@
+#### NOTE: THIS WEBPAGE IS CURRENTLY A WORK IN PROGRESS! :)
+
 In the span of 2 months, this project was developed by 5 students for the "Advanced C++" course at De Anza College.
 
 As one of the two leaders, my responsibilities included team coordinations, code integration, animation, developing the monster class and algorithms, and assisting with the development of the player class and main game code.
