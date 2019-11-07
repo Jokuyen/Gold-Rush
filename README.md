@@ -1,20 +1,22 @@
-This project was developed over the span of about 9 weeks by 5 students for the "Advanced C++" course at De Anza College.
+In the span of 2 months, this project was developed by 5 students for the "Advanced C++" course at De Anza College.
 
-As 1 of the 2 leaders, my responsibilities were team coordinations, code integration, developing the monster class and algorithms, and assisting with the development of the player class and main game code.
+As one of the two leaders, my responsibilities included team coordinations, code integration, animation, developing the monster class and algorithms, and assisting with the development of the player class and main game code.
 
 ### Game Play
 
 In this mini survival game, you play as a cat collecting coins. Meanwhile, monsters spawn at random; it is your goal to collect as many coins as possible to increase your score while surviving your encounters with these monsters.
 
-Starting with 5 lives, any collision with these monsters counts as 1 deduction. You can fight by pressing "A", enabling you to defeat these monsters, or you could press "S" to temporarily brace yourself for 1 incoming attack. 
+Beginning with 5 lives, any collision with these monsters counts as 1 deduction. You can attack by pressing "A", enabling you to defeat these monsters, or you could press "S" to temporarily brace yourself for 1 incoming attack. 
 
-The more coins you collect, the more monsters that spawn at once with a faster default speed (to an extent).
+The more coins you collect, the most monsters that spawn with a faster default speed. At every 50 coins collected, a key spawns that enables you to open the door to a boss. Defeating this boss with your attacks will grant 3 lives.
 
-At every 50 coins collected, a key spawns that enables you to open the door to a boss. Defeating this boss with your attacks will grant 3 lives.
+If you ever find a cluser of monsters, you can drop a bomb in the selected area with the mouse!
 
 ### Code Snippets + Images
 
 ### My Reflection and Thoughts
+
+Even though this is a simple game, the development process was difficult—especially considering that this was everyone's first time creating a game. I picked up animation as a responsibility since no one on my team had artistic talent; figuring out this process was a valuable lesson for me.
 
 ### Note
 
