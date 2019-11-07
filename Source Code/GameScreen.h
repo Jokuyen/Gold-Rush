@@ -579,6 +579,7 @@ int GameScreen::Run(sf::RenderWindow &App, const int SCREENWIDTH, const int SCRE
                     case sf::Keyboard::Q: // Back to menu
                         testmode = false;
 						Entity::setImage(getBorderImage());
+						door.setFillColor(sf::Color::White);
                         App.setView(App.getDefaultView());
                         return (7);
                         break;
@@ -994,7 +995,6 @@ int GameScreen::Run(sf::RenderWindow &App, const int SCREENWIDTH, const int SCRE
                     delete bigBoss;
                     bigBoss = nullptr;
                 }
-				Entity::setImage(getBorderImage());
                 App.setView(App.getDefaultView());
                 Score::score = playerObj.getScore();
                 // Proceed to game over screen
