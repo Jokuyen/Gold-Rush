@@ -197,11 +197,12 @@ int Monster::randomNumber(int max)
 }
 ```
 
-### Reflection and Thoughts
+### Final Thoughts
 
-Even though this is a simple game, the development process was difficult—especially considering that this was everyone's first time creating a game. I picked up animation as a responsibility since no one on my team had artistic talent; figuring out this process added a valuable diversity to my skillset.
+Although a simple game, the development process was incredibly difficult—especially considering that this was everyone's first time creating a game. I picked up animation as a responsibility since no one on my team considered themselves an artistic person. Figuring out animation exposed me to an aspect of programming I've never experienced before; the research and trial and error improved me as an inpedendent programmer.
 
 ### Note
 
 This project requires linking of SFML library and that all assets are in the same directory as the code files.
+
 Theme music size (https://youtu.be/gsr19Kdf3Lk) was too large for GitHub, so know that it could not be included.
