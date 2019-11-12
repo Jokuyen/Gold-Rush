@@ -200,11 +200,23 @@ int Monster::randomNumber(int max)
 }
 ```
 
+### Notable Bugs
+
+// This section in progress
+
+- Big boss respawn
+
+- Remasking door after quitting game
+
+### Animation Process
+
+// This section in progress
+
 ### Final Thoughts
 
 While working on the monster algorithm, I had to recall how other games handled their monsters' mechanism. At first, my monsters moved endlessly without pausing, so I had to update my algorithm accordingly to fix that. This project gave me a deeper appreciation of the work that was put into actual games; little details can make some pretty big impacts.
 
-Although a simple game, the development process was incredibly difficult—especially considering that this was everyone's first time creating a game. I picked up animation as a responsibility since no one on my team considered themselves an artistic person. Figuring animation out exposed me to an aspect of programming I've never experienced before; the research and trial and error improved me as a programmer. From this project, I understood the importance of task delegation as well as how critical the design process is at the beginning. In addition, I gained experience with reading other people's code, maintaining a code style throughout the project, and solving tricky bugs. As a leader, I tackled challenges with zest and gained the pride of figuring out a solution. Overall, this simple game required tons of effort and growth from me, which I am grateful to have provided!
+Although a simple game, the development process was incredibly difficult—especially considering that this was everyone's first time creating a game. I picked up animation as a responsibility since no one on my team considered themselves an artistic person. Figuring animation out exposed me to an aspect of programming I've never experienced before; the research and trial & error improved me as a programmer. From this project, I understood the importance of task delegation as well as how critical the design process is at the beginning. In addition, I gained experience with reading other people's code, maintaining a code style throughout the project, and solving tricky bugs. As a leader, I tackled challenges with zest and gained the pride of figuring out a solution. Overall, this simple game required tons of effort and growth from me, which I am grateful to have provided!
 
 ### Note
 
