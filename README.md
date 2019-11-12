@@ -71,47 +71,6 @@ The movement of the monster objects are dictated by a function that generates a 
 //  Copyright © 2019 Johnny Nguyen and Felicia Dewanaga
 //  All rights reserved.
 
-class Monster : public Entity
-{
-private:
-    // Textures
-    sf::Texture movementOneTexture;
-    sf::Texture movementTwoTexture;
-    sf::Texture collisionTexture;
-    
-    bool alive = true;
-    int direction = 0; // 0 = Up, 1 = Down, 2 = Left, 3 = Right
-    float movementSpeed = 2;
-    int movementCounter = 0;
-    int movementLength = 55;
-    bool bigBoss;
-    
-public:
-    // Constructor
-    Monster(sf::Texture& monsterTexture, sf::Texture& monsterTwoTexture, sf::Texture& monsterCollisionTexture, float chamberx, float chambery, bool boss = false);
-    ~Monster();
-    
-    // Animations
-    void movementAnimation();
-    void collisionAnimation() { sprite.setTexture(collisionTexture); }
-    
-    
-    // Functions
-    int randomNumber(int max);
-    bool getAlive();
-    void setAlive(bool a);
-    void increaseSpeed(float inputSpeedNumber) { if (movementSpeed < 15) movementSpeed += inputSpeedNumber; }
-    void updateMovement(const int SCREENWIDTH, const int BG_HEIGHT);
-};
-```
-
-```c++
-//  Monster.cpp
-//
-//  Created by Johnny Nguyen and Felicia Dewanaga
-//  Copyright © 2019 Johnny Nguyen and Felicia Dewanaga
-//  All rights reserved.
-
 /*
  Description: This method handles the movement of the monster. It uses a random number calculator to determine the direction and moves by the set speed. There are statements in place to make sure a monster does not move out of the boundaries and reacts correctly.
  Parameters: width of the screen, height of the screen
@@ -154,25 +113,6 @@ void Monster::updateMovement(const int SCREENWIDTH, const int BG_HEIGHT)
     {
         // No movement
     }
-    
-    // Prevent monsters from leaving the window
-    if (image.getPixel(sprite.getPosition().x, sprite.getPosition().y - 30) == sf::Color::Black)//sprite.getPosition().y < 85) // Hitting top wall
-    {
-        direction = 1;
-    }
-    else if (image.getPixel(sprite.getPosition().x, sprite.getPosition().y + 30) == sf::Color::Black) //sprite.getPosition().y >  BACKGROUNDSIZE.y + 15)//BG_HEIGHT + 15) // Hitting bottom wall
-    {
-        direction = 0;
-    }
-    else if (image.getPixel(sprite.getPosition().x - 30, sprite.getPosition().y) == sf::Color::Black) //sprite.getPosition().x < 35) // Hitting left wall
-    {
-        direction = 3;
-    }
-    else if (image.getPixel(sprite.getPosition().x + 30, sprite.getPosition().y) == sf::Color::Black) //sprite.getPosition().x > BACKGROUNDSIZE.x - 20) // SCREENWIDTH - 20) // Hitting right wall
-    {
-        direction = 2;
-    }
-    
     
     movementCounter++;
     
