@@ -1,6 +1,6 @@
 #### NOTE FROM NOVEMBER 7, 2019: THIS WEBPAGE IS CURRENTLY A WORK IN PROGRESS! :)
 
-In the span of 2 months, this project was developed by 5 students for the "Advanced C++" course at De Anza College.
+Over the span of 2 months, this project was developed by 5 students for the "Advanced C++" course at De Anza College.
 
 As one of the two leaders, my responsibilities included team coordinations, code integration, animation, developing the monster class and algorithms, and assisting with the development of the player class and main game code.
 
@@ -61,6 +61,9 @@ Game over screen
 ![gameOver](screenshots/gameOver.png)
 
 ### Code 
+
+The movement of the monster objects are dictated by a function that generates a random number. Based on the number, there is a if-else case that moves the monster in one direction, or not move at all if the number isn't in any of the if-statements.
+
 ```c++
 //  Monster.cpp
 //
@@ -199,7 +202,9 @@ int Monster::randomNumber(int max)
 
 ### Final Thoughts
 
-Although a simple game, the development process was incredibly difficult—especially considering that this was everyone's first time creating a game. I picked up animation as a responsibility since no one on my team considered themselves an artistic person. Figuring out animation exposed me to an aspect of programming I've never experienced before; the research and trial and error improved me as an inpedendent programmer.
+While working on the monster algorithm, I had to recall how other games handled their monsters' mechanism. At first, my monsters moved endlessly without pausing, so I had to update my algorithm accordingly to fix that. This project gave me a deeper appreciation of the work that was put into actual games; little details can make some pretty big impacts.
+
+Although a simple game, the development process was incredibly difficult—especially considering that this was everyone's first time creating a game. I picked up animation as a responsibility since no one on my team considered themselves an artistic person. Figuring animation out exposed me to an aspect of programming I've never experienced before; the research and trial and error improved me as a programmer. From this project, I understood the importance of task delegation as well as how critical the design process is at the beginning. In addition, I gained experience with reading other people's code, maintaining a code style throughout the project, and solving tricky bugs. As a leader, I tackled challenges with zest and gained the pride of figuring out a solution. Overall, this simple game required tons of effort and growth from me, which I am grateful to have provided!
 
 ### Note
 
